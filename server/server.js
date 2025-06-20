@@ -10,7 +10,7 @@ const app = express();
 const port = process.env.PORT || 4000;
 connectDB();
 
-const allowedOrigins = ["https://auth-ten-theta.vercel.app"];
+const allowedOrigins = ["https://auth-jkx2.vercel.app"];
 
 app.use(express.json());
 app.use(cookieParser());
